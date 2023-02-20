@@ -21,7 +21,7 @@
  
 ```
 
-### 코드 작성
+### 코드 작성 
 ```
 const companyName : string = 'Samsung';
 
