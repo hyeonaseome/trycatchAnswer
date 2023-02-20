@@ -33,6 +33,11 @@ const companyName : string = 'Samsung';
 />
 ```
 
+### 태그
+```
+typescript react vite
+```
+
 ### 질문 작성 후 아래 답변 (db connection pool 에러..)
 ```
 트랜잭션이 완료되지 않아 커넥션풀에 커넥션이 반납되지 않는 상황으로 보입니다.
