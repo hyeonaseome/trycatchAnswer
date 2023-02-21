@@ -4,7 +4,7 @@
 
 ### 질문 제목
 ```
- 빌드 후 이미지가 안 나타납니다 ㅠㅠ
+빌드 후 이미지가 안 나타납니다 ㅠㅠ
 ```
 
 ### 질문 내용의 제목
@@ -15,27 +15,12 @@
 ### 질문 내용
 ```
  현재 Vite(4.0.0)와 Typescript(4.9.3)로 구현된 react 프로젝트를 진행하고 있습니다. 현 프로젝트에서 로컬(프로젝트 폴더 안)에 저장된 이미지들을 불러와야하는 상황인데 local 환경에서는 경로 이미지를 볼 수 있었으나, 빌드 후 이미지가 안 나타납니다.
- 먼저, require() 함수 사용해서 해결해보려 했으나 global 에서만 사용 가능하였고, dynamic하게 img 경로가 변경되어야하는데 고정 되어야해서 문제가 해결되지 않았습니다. 어떻게 하면 고정 되지 않은 이미지 경로를 활용해 빌드 후에도 이미지가 나타나도록 할 수 있을까요..?
-
- 아래는 현재 프로젝트에서 img를 불러오는 방법입니다. companyName data가 api 호출을 통해 계속 변하는 상황입니다. 도와주세요!!!
- 
-```
-
-### 코드 작성 
-```
-const companyName : string = 'Samsung';
-
-<img
-	src={
-		companyName ? `/src/assets/logo/${companyName}.png` : `/src/assets/favicon.ico`
-		}
-  alt={`${companyName}`}
-/>
+ 먼저, require() 함수 사용해서 해결해보려 했으나 global 에서만 사용 가능하였고, dynamic하게 img 경로가 변경되어야하는데 고정 되어야해서 문제가 해결되지 않았습니다. 어떻게 하면 고정 되지 않은 이미지 경로를 활용해 빌드 후에도 이미지가 나타나도록 할 수 있을까요..? 
 ```
 
 ### 태그
 ```
-typescript react vite
+react vite
 ```
 
 ### 질문 작성 후 아래 답변 (db connection pool 에러..)
